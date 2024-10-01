@@ -27,15 +27,13 @@ export default class MyDropdown extends React.Component {
     const filteredItems = await sp.web.lists.getByTitle('Cars').items.filter(`Title eq '${key}'`).get();
     // Update your component state or UI with the filtered items
   };
-  
   render() {
     return (
       <Dropdown
         placeholder="Select an option"
-        options={this.state.options}
-        onChange={this.onChange}
-        selectedKey={this.state.selectedKey}
-      />
+        Option={this.state.options}
+        onchange={this.onChange} selectedKey={this.state.selectedKey}/>;
     );
   }
 }
+
