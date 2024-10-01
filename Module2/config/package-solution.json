@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-pane-ex-client-side-solution",
+    "id": "ed8d4892-cd65-43c6-b1f4-d721b26eed0b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxPaneEx description"
+      },
+      "longDescription": {
+        "default": "SPFxPaneEx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-pane-ex Feature",
+        "description": "The feature that activates elements of the sp-fx-pane-ex solution.",
+        "id": "e12457e8-be5b-42d3-a2c7-c2f49b21e46d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-pane-ex.sppkg"
+  }
+}

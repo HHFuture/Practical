@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ToggleMenu"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="724261e4-1f0b-4815-b5a4-00ad8f0561e6"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

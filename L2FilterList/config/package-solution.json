@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "filter-list-sp-fx-client-side-solution",
+    "id": "96a21889-aaab-4d2a-bcdf-66396e264d59",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FilterListSPFx description"
+      },
+      "longDescription": {
+        "default": "FilterListSPFx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "filter-list-sp-fx Feature",
+        "description": "The feature that activates elements of the filter-list-sp-fx solution.",
+        "id": "915db525-e0aa-4fe3-874e-4b384a49a285",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/filter-list-sp-fx.sppkg"
+  }
+}

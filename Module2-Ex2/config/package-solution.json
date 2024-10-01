@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pane-ex-2-client-side-solution",
+    "id": "c20086c5-9f78-41b0-b09a-839f2e52f879",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PaneEx2 description"
+      },
+      "longDescription": {
+        "default": "PaneEx2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pane-ex-2 Feature",
+        "description": "The feature that activates elements of the pane-ex-2 solution.",
+        "id": "e394da9c-1908-4580-8423-bbb984798121",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pane-ex-2.sppkg"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "connected-sp-fx-client-side-solution",
+    "id": "c33a69c6-f8d9-4adf-a68f-601eaa7af498",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ConnectedSPFx description"
+      },
+      "longDescription": {
+        "default": "ConnectedSPFx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "connected-sp-fx Feature",
+        "description": "The feature that activates elements of the connected-sp-fx solution.",
+        "id": "646d0aef-d47e-4bcc-9f6e-c289d01e034c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/connected-sp-fx.sppkg"
+  }
+}

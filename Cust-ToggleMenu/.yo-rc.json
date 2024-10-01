@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "cust-toggle-menu",
+    "libraryId": "c44691a1-298a-4710-adfd-4c498dd8fef2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cust-toggle-menu",
+    "solutionShortDescription": "cust-toggle-menu description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

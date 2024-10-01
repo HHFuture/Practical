@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "sp-fx-pane-ex",
+    "libraryId": "ed8d4892-cd65-43c6-b1f4-d721b26eed0b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFxPaneEx",
+    "solutionShortDescription": "SPFxPaneEx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
